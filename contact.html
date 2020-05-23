@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png"
+        href="/Users/marilynaleka/Desktop/project2/Responsive_portfolio/image/M.png">
+    <link rel="stylesheet" href="/Users/marilynaleka/Desktop/project2/Responsive_portfolio/bio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <style>
+        /*styling the font for the navigation bar to keep it uniform across all pages*/
+        .portfolio {
+            font-family: 'Abel', sans-serif;
+        }
+
+        .home {
+            font-family: 'Abel', sans-serif;
+        }
+
+        .contact {
+            font-family: 'Abel', sans-serif;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+
+        h1 {
+            font-family: 'Martel', serif;
+
+        }
+
+        /*positioning form elements*/
+
+        .form-control {
+            width: 50%;
+        }
+
+        .form-control-lg {
+            height: 100px;
+        }
+
+        button {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navigation bar from bootsrap-->
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <a class="home" href="/Users/marilynaleka/Desktop/project2/Responsive_portfolio/index.html">
+            <img src="image/M.png" width="50" height="50" class="d-inline-block align-top" alt="icon image">
+            Home
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="portfolio portfolio-link active"
+                    href="/Users/marilynaleka/Desktop/project2/Responsive_portfolio/portfolio.html"> Portfolio <span
+                        class="sr-only">(current)</span></a>
+                <a class="contact contact-link active"
+                    href="/Users/marilynaleka/Desktop/project2/Responsive_portfolio/contact.html"> Contact </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!--form from bootsrap-->
+        <h1>Contact</h1>
+        <form>
+            <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-4 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control" id="colFormLabel" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="colFormLabel" class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Message</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Message">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

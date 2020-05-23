@@ -1,0 +1,60 @@
+
+/*pseudostyling links*/
+
+a:link{
+    color: purple;
+}
+a:visited{
+    color: palevioletred;
+}
+a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+/*styling and positioning the links*/
+.home {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 10px;
+    
+}
+.portfolio {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 350px;
+}
+
+.contact {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 400px;
+    margin-left: 0;
+}
+
+/*styling and postioning the header*/
+
+.top{
+    font-family: 'Martel', serifz;
+    margin-top: 20px;
+    
+}
+
+/*positing the first column in first row*/
+.first-row{
+    margin-top: 30px;
+}
+/*positing the second column in first row*/
+.second-col{
+        margin: auto;
+    margin-top: 70px;
+}
+
+/*positioning the first row in second columd*/
+.third-col{
+        margin-bottom: 0em;
+        margin-top: 50px;
+}
